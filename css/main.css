@@ -1,0 +1,70 @@
+h1 {
+	font-family: 'Inconsolata', monospace;
+}
+
+body {
+	font-family: 'Arimo', sans-serif;
+}
+
+#landing {
+	width: 100%;
+	height: 100vh;
+	background-image: url('https://imgur.com/V9lmXMa.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	-moz-box-shadow: inset 0px 0px 100px 3px #fff;
+	-webkit-box-shadow: inset 0px 0px 100px 3px #fff;
+	box-shadow: inset 0px 0px 400px 3px #fff;
+}
+
+@media (max-width: 600px) {
+	#landing {
+		background-image: url('https://imgur.com/JOYEhpd.jpg');
+	}
+
+	#landing > div > div > h1 {
+		text-transform: uppercase;
+		font-size: 4em;
+	}
+}
+
+.navbar {
+  margin: 0;
+  border-radius: 0;
+  color: #FFF;
+  padding: 1%, 0;
+  border: 0;
+	text-transform: uppercase;
+}
+
+.navbar .navbar-brand {
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+.navbar .navbar-brand img {
+	width: 100px;
+}
+
+.navbar .navbar-nav .nav-item {
+	font-size: 1.2em;
+}
+
+.landing-info h1 {
+	text-transform: uppercase;
+	font-size: 7em;
+	text-shadow: 2px 2px #000;
+}
+
+.center {
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+
+.white {
+	color: #FFF;
+}
