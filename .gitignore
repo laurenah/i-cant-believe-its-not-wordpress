@@ -1,0 +1,5 @@
+#okta env
+.env
+
+#node
+/node_modules

@@ -1,0 +1,32 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Gonna be slow going here, but I really want to work on more projects. I'll start small and work my way to bigger stuff, but at the moment I'm just listening to whatever nonsense my brain comes up with in the shower or in bed at 2am (cursed visions).",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laurenah/i-cant-believe-its-not-wordpress.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/laurenah/i-cant-believe-its-not-wordpress/issues"
+  },
+  "homepage": "https://github.com/laurenah/i-cant-believe-its-not-wordpress#readme",
+  "dependencies": {
+    "@okta/oidc-middleware": "^1.0.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "epilogue": "^0.7.1",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "nodemon": "^2.0.4",
+    "sequelize": "^6.3.4",
+    "sqlite3": "^5.0.0"
+  }
+}

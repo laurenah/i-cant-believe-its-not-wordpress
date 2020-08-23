@@ -1,9 +1,5 @@
-h1 {
-	font-family: 'Inconsolata', monospace;
-}
-
 body {
-	font-family: 'Arimo', sans-serif;
+	font-family: 'Work Sans', sans-serif;
 }
 
 #landing {
@@ -24,7 +20,6 @@ body {
 	}
 
 	#landing > div > div > h1 {
-		text-transform: uppercase;
 		font-size: 4em;
 	}
 }
@@ -52,8 +47,7 @@ body {
 }
 
 .landing-info h1 {
-	text-transform: uppercase;
-	font-size: 7em;
+	font-size: 5em;
 	text-shadow: 2px 2px #000;
 }
 
